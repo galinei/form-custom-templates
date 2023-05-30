@@ -14,10 +14,10 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         $table,
         'doktype',
         [
-            'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/Database:form_custom_templates.pageType',
-            $emailDoktype,
-            'apps-pagetree-page-email',
-            'special',
+            'label' => 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/Database:form_custom_templates.pageType',
+            'value' => $emailDoktype,
+            'icon'  => 'apps-pagetree-page-email',
+            'group' => 'special',
         ],
         '254',
         'before'
